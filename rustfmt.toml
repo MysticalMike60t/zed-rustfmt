@@ -1,0 +1,23 @@
+array_width = 30
+attr_fn_like_width = 60
+binop_seperator = "Front"
+blank_lines_lower_bound = 0
+blank_lines_upper_bound = 1
+brace_style = "PreferSameLine"
+chain_width = 60
+color = "Always"
+combine_control_expr = true
+comment_width = 60
+# Watch this one (make sure it doesn't fuck shit up)
+condense_wildcard_suffixes = true
+control_brace_style = "AlwaysSameLine"
+disable_all_formatting = false
+edition = "2024"
+empty_item_single_line = true
+enum_discrim_align_threshold = 20
+error_on_line_overflow = false
+error_on_unformatted = false
+
+wrap_comments = true
+unstable_features = false
+reorder_imports = true

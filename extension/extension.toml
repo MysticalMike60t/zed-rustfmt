@@ -1,0 +1,15 @@
+id = "rustfmt"
+name = "Rustfmt configuration support"
+version = "0.1.0"
+schema_version = 1
+authors = ["Caden Finkelstein <me@cadenf.com>"]
+description = "Rustfmt configuration support with language server."
+repository = "https://github.com/MysticalMike60t/zed-rustfmt"
+
+[language_servers.rustfmt-lsp-server]
+name = "Rustfmt Language Server"
+languages = ["Rustfmt"]
+
+[grammars.toml]
+repository = "https://github.com/ikatyang/tree-sitter-toml"
+commit = "8bd2056818b21860e3d756b5a58c4f6e05fb744e"

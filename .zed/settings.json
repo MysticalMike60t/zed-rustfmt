@@ -1,0 +1,23 @@
+{
+  "file_types": {
+    "HTML": ["README.md"],
+  },
+  "languages": {
+    "HTML": {
+      "auto_indent": "none",
+      "auto_indent_on_paste": false,
+      "format_on_save": "off",
+    },
+    "Rust": {
+      "auto_indent": "syntax_aware",
+      "auto_indent_on_paste": true,
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "rustfmt",
+          "arguments": ["--emit", "stdout"],
+        },
+      },
+    },
+  },
+}
