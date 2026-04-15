@@ -14,7 +14,6 @@ Zed Rustfmt Support Extension
 </div>
 
 <div align="center">
-<img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/MysticalMike60t/zed-rustfmt/release.yml?style=plastic">
 <img alt="Deps.rs Repository Dependencies" src="https://img.shields.io/deps-rs/repo/github/MysticalMike60t/zed-rustfmt?style=plastic">
 </div>
 
