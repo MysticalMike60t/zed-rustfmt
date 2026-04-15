@@ -1,8 +1,9 @@
 # [1] Zed Extensions, TOML, GitHub, Apr. 2026. [Online]. Available: https://github.com/zed-extensions/toml
 
-name = "Rustfmt"
+name = "rustfmt"
 grammar = "toml"
-path_suffixes = [".rustfmt.toml", "rustfmt.toml"]
+path_suffixes = ["toml"]
+file_types = ["rustfmt.toml", ".rustfmt.toml"]
 line_comments = ["# "]
 tab_size = 4
 hard_tabs = false

@@ -8,9 +8,11 @@ repository = "https://github.com/MysticalMike60t/zed-rustfmt"
 
 [language_servers.rustfmt-lsp-server]
 name = "rustfmt LSP"
-language = "rustfmt"
 languages = ["rustfmt"]
 
 [grammars.toml]
 repository = "https://github.com/ikatyang/tree-sitter-toml"
 commit = "8bd2056818b21860e3d756b5a58c4f6e05fb744e"
+
+[file_types]
+rustfmt = ["rustfmt.toml", ".rustfmt.toml"]

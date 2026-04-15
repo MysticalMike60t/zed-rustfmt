@@ -1,6 +1,7 @@
 {
   "file_types": {
     "HTML": ["README.md"],
+    "rustfmt": ["rustfmt.toml", ".rustfmt.toml"],
   },
   "languages": {
     "HTML": {
