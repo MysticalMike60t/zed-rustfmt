@@ -6,7 +6,6 @@ publish = false
 license = "GPL"
 
 [lib]
-path = "src/rustfmt.rs"
 crate-type = ["cdylib"]
 
 [dependencies]

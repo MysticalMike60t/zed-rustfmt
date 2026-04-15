@@ -7,8 +7,9 @@ description = "Rustfmt configuration support with language server."
 repository = "https://github.com/MysticalMike60t/zed-rustfmt"
 
 [language_servers.rustfmt-lsp-server]
-name = "Rustfmt Language Server"
-languages = ["Rustfmt"]
+name = "rustfmt LSP"
+language = "rustfmt"
+languages = ["rustfmt"]
 
 [grammars.toml]
 repository = "https://github.com/ikatyang/tree-sitter-toml"
